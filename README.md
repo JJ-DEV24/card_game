@@ -6,7 +6,7 @@ gets a point.
 The logic of this game relies on python, the random module, functions, for loops, conditional statements and various data structures.
 
 
-A function called "card_shuffler" takes 1 argument ("deck_of_cards" which is a list and shuffles the cards. A new deck of cards is returned in a different order.
+A function called "card_shuffler" takes 1 argument ("deck_of_cards") which is a list and shuffles the cards. A new deck of cards is returned in a different order.
 
 The "deck_maker" function creates a deck of cards. The "suits" variable stores a list of suits as a string, and the "numbers" variable stores a list of tuples 
 which contain individual tuples that store key value pairs (string, integer).
