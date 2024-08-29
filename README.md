@@ -19,7 +19,7 @@ Next, "ans" is appended to "new_deck_of_card" and is returned.
 In the "high_or_lower" function, "deck_maker" is called and stored in a variable called "deck_of_Card" and is shuffled by "card_shuffler".
 Following this, variables "player_1" and "player_2" are created. These variable store a dictonary with 2 key value dictionary pairs: {'score': 0, 'hand': 0}.
 A for loop is used to assign a card to each player 5 times. The 'hand' value is incremented by 1 in another for loop by using the built-in function "enumerate"
-which acceses index 1 of {'hand': 0} and increments the "0" value 5 times.
+which acts like a counter as it creates indices 1 through 4 for the "0" value in {'hand': 0}.
 
 Below this follows, various conditional if statements is used for each round to check if "player_1" and "player_2" tie, or if either "player_1" or "player_2" win the round. 
 If a player wins a round, their 'score' is updated as the value is incremented by 1 point and stored in a variable called "player_1_score" or "player_2_score".
